@@ -1,0 +1,58 @@
+body {
+    margin: 0rem;
+}
+
+.header {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 5rem;
+    background-color: rgb(7, 77, 7);
+    color: white;
+}
+
+.navigation-items {
+    display: flex;
+    justify-content: center;
+}
+
+.tabs {
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.tabs:hover {
+    background-color: rgb(17, 104, 17);
+}
+
+.headline {
+    text-align: center;
+    margin: 5rem auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    width: 40rem;
+    color: gray;
+}
+
+.img {
+    height: 30rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.menu-headline {
+    text-align: center;
+    margin: 5rem 0rem;
+    font-size: 2rem;
+    color: gray;
+}
+
+.menu-instructions {
+    text-align: center;
+    font-size: 1.5rem;
+    width: 40rem;
+    margin: 0rem auto;
+}
