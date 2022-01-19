@@ -28,7 +28,7 @@ body {
 
 .headline {
     text-align: center;
-    margin: 5rem auto;
+    margin: 15rem auto;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 2rem;
     width: 40rem;
@@ -43,16 +43,66 @@ body {
     display: flex;
 }
 
-.menu-headline {
-    text-align: center;
-    margin: 5rem 0rem;
-    font-size: 2rem;
-    color: gray;
+.menu {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 3rem auto;
+    max-width: 70rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.menu-instructions {
+.menu-column {
+    flex-grow: 1;
+    width: 33%;
+    margin-right: 2rem;
+}
+
+.menu-section-title {
+    color: rgb(40, 145, 134);
+    font-weight: 600;
+}
+
+.entree-section {
+    margin-top: 2rem;
+}
+
+.name-and-price {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+}
+
+.description-price {
+    display: flex;
+    margin-top: 0.5rem;
+}
+
+.description {
+    margin-right: 1rem;
+}
+
+.calories {
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.contact-action {
     text-align: center;
-    font-size: 1.5rem;
+    margin: 5rem auto;
+    font-size: 2rem;
+    color: gray;
     width: 40rem;
-    margin: 0rem auto;
+}
+
+.contact-info {
+    margin: 5rem;
+}
+
+.contact {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    color: rgb(40, 145, 134);
+    margin: 1rem auto;
 }
